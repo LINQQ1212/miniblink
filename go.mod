@@ -1,4 +1,4 @@
-module github.com/del-xiong/miniblink
+module github.com/LINQQ1212/miniblink
 
 go 1.12
 
