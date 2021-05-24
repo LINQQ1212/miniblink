@@ -1,5 +1,5 @@
 # blink
-本库fork自 https://github.com/LINQQ1212/miniblink 并做了一些更新
+本库fork自 https://github.com/del-xiong/miniblink 并做了一些更新
 使用html来编写golang的GUI程序(only windows), 基于[miniblink开源库](https://github.com/weolar/miniblink49)  
 
 ## Demo
@@ -7,7 +7,7 @@
 
 ## 安装
 ```bash
-go get github.com/del-xiong/miniblink
+go get github.com/LINQQ1212/miniblink
 ```
 
 ## 快速入门教程
