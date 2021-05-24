@@ -8,8 +8,8 @@
 #include "interop.h"
 #include "event.h"
 
-wchar_t *wlocalstorage;
-wchar_t *wcookiejar;
+static wchar_t *wlocalstorage;
+static wchar_t *wcookiejar;
 
 wkeWebView createWebWindow(bool isTransparent, int x, int y, int width, int height);
 HWND getWindowHandle(wkeWebView window);
