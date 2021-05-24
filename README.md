@@ -1,5 +1,5 @@
 # blink
-本库fork自 https://github.com/raintean/blink 并做了一些更新
+本库fork自 https://github.com/LINQQ1212/miniblink 并做了一些更新
 使用html来编写golang的GUI程序(only windows), 基于[miniblink开源库](https://github.com/weolar/miniblink49)  
 
 ## Demo
@@ -37,7 +37,7 @@ go get github.com/del-xiong/miniblink
 package main
 
 import (
-    "github.com/del-xiong/miniblink"
+    "github.com/LINQQ1212/miniblink"
     "log"
 )
 
@@ -54,7 +54,7 @@ func main() {
     // 启动1366x920透明浏览器(只有web界面会显示)
     //view := miniblink.NewWebView(true, 1366, 920)
     // 加载github
-    view.LoadURL("https://github.com/del-xiong/miniblink")
+    view.LoadURL("https://baidu.com")
     // 设置窗体标题(会被web页面标题覆盖)
     view.SetWindowTitle("miniblink window")
     // 移动到屏幕中心位置
