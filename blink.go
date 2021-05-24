@@ -93,8 +93,6 @@ func InitBlink() error {
 			}
 		}
 	}()
-
 	logger.Println("miniblink初始化完毕")
-
 	return nil
 }
